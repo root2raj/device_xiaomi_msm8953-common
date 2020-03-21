@@ -263,17 +263,17 @@ ro.hwui.text_large_cache_height=1024
 
 # Lau's magic props
 PRODUCT_PROPERTY_OVERRIDES += \
-debug.sf.hw=1 \ 
+debug.sf.hw=1 \
 debug.hwui.renderer=skiagl \
 debug.cpurend.vsync=false \
-vendor.display.enable_default_color_mode=0 \ 
-debug.composition.type=c2d  \
-debug.mdpcomp.idletime=600  \
+vendor.display.enable_default_color_mode=0 \
+debug.composition.type=c2d \
+debug.mdpcomp.idletime=600 \
 persist.hwc.ptor.enable=true \
 debug.egl.hw=1 \
 debug.sf.disable_hwc=0 \
-debug.sf.disable_backpressure=1  \
-debug.sf.gpu_comp_tiling=1  \
+debug.sf.disable_backpressure=1 \
+debug.sf.gpu_comp_tiling=1 \
 debug.performance.tuning=1 \
 video.accelerate.hw=1
 
