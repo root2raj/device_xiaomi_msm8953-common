@@ -158,7 +158,8 @@ vendor.vidc.dec.downscalar_width=1920 \
 vendor.vidc.disable.split.mode=1 \
 vendor.vidc.enc.disable.pq=true \
 vendor.vidc.enc.disable_bframes=1 \
-vendor.video.disable.ubwc=1
+vendor.video.disable.ubwc=1 \
+vidc.enc.disable_pframes=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 vendor.video.disable.ubwc=1
@@ -260,10 +261,6 @@ ro.hwui.text_small_cache_width=1024 \
 ro.hwui.text_small_cache_height=1024 \
 ro.hwui.text_large_cache_width=2048 \
 ro.hwui.text_large_cache_height=1024 \
-ro.cutoff_voltage_mv=3400 \
-ro.memperf.lib=libmemperf.so \
-ro.memperf.enable=false \
-persist.mm.sta.enable=0
 
 # Improve touch detection
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -307,5 +304,13 @@ ro.vendor.qti.sys.fw.use_trim_settings=true \
 ro.vendor.qti.sys.fw.empty_app_percent=50 \
 ro.vendor.qti.sys.fw.trim_empty_percent=100 \
 ro.vendor.qti.sys.fw.trim_cache_percent=100 \
-iro.vendor.qti.sys.fw.trim_enable_memory=2147483648
+iro.vendor.qti.sys.fw.trim_enable_memory=2147483648 \
+ro.vendor.qti.config.zram=true \
+ro.vendor.qti.am.reschedule_service=true \
+ro.cutoff_voltage_mv=3400 \
+ro.memperf.lib=libmemperf.so \
+ro.memperf.enable=false \
+persist.mm.sta.enable=0 \
+persist.fuse_sdcard=true \
+persist.console.silent.config=1
 
