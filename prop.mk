@@ -146,6 +146,7 @@ debug.media.codec2=2 \
 media.aac_51_output_enabled=true \
 media.msm8956hw=0 \
 media.stagefright.audio.sink=280 \
+media.stagefright.thumbnail.prefer_hw_codecs=true \
 vendor.mm.enable.qcom_parser=1048575 \
 mm.enable.smoothstreaming=true \
 mmp.enable.3g2=true \
