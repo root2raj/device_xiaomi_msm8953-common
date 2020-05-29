@@ -23,6 +23,9 @@
         <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">NOS</string>
     </carrier_config>
+    <carrier_config mcc="268" mnc="06">
+        <string name="default_vm_number_string">+351962000000</string>
+    </carrier_config>
     <carrier_config mcc="334" mnc="020">
         <boolean name="voicemail_notification_persistent_bool" value="true" />
     </carrier_config>
@@ -82,12 +85,27 @@
     <carrier_config mcc="222" mnc="10">
         <string-array name="read_only_apn_types_string_array" num="0" />
     </carrier_config>
+    <carrier_config mcc="234" mnc="10">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">O2 - UK</string>
+    </carrier_config>
+    <carrier_config mcc="234" mnc="15">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">vodafone UK</string>
+    </carrier_config>
     <carrier_config mcc="234" mnc="20">
         <boolean name="carrier_name_override_bool" value="true" />
         <string name="carrier_name_string">3</string>
     </carrier_config>
+    <carrier_config mcc="234" mnc="30">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">EE</string>
+    </carrier_config>
     <carrier_config mcc="214" mnc="01">
         <string name="default_vm_number_string">22177</string>
+        <string-array name="read_only_apn_types_string_array" num="0" />
+    </carrier_config>
+    <carrier_config mcc="214" mnc="03,04,05,06,07,08,16,17,21,32">
         <string-array name="read_only_apn_types_string_array" num="0" />
     </carrier_config>
     <carrier_config mcc="730" mnc="09">
@@ -97,14 +115,50 @@
             <item value="73003" />
             <item value="73021" />
         </string-array>
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">WOM</string>
+    </carrier_config>
+    <carrier_config mcc="222" mnc="01">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">I TIM</string>
+    </carrier_config>
+    <carrier_config mcc="222" mnc="10">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">vodafone IT</string>
     </carrier_config>
     <carrier_config mcc="222" mnc="50">
         <string-array name="read_only_apn_types_string_array" num="0" />
+    </carrier_config>
+    <carrier_config mcc="222" mnc="88">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">I WIND</string>
+    </carrier_config>
+    <carrier_config mcc="222" mnc="99">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">3 ITA</string>
     </carrier_config>
     <carrier_config mcc="208" mnc="15">
         <string-array name="read_only_apn_types_string_array" num="0" />
     </carrier_config>
     <carrier_config mcc="647" mnc="03">
         <string-array name="read_only_apn_types_string_array" num="0" />
+    </carrier_config>
+    <carrier_config mcc="450" mnc="02,08">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">KT</string>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="05">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">KOR SK Telecom</string>
+    </carrier_config>
+    <carrier_config mcc="272" mnc="02">
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="27205" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="272" mnc="05">
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="27202" />
+        </string-array>
     </carrier_config>
 </carrier_config_list>
