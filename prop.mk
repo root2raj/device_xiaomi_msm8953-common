@@ -16,6 +16,7 @@ audio.offload.min.duration.secs=30 \
 audio.offload.video=true \
 ro.config.media_vol_steps=25 \
 ro.config.vc_call_vol_steps=7 \
+persist.vendor.audio.hw.binder.size_kbyte=1024 \
 persist.vendor.btstack.enable.splita2dp=false \
 ro.vendor.audio.sdk.ssr=false \
 vendor.audio.flac.sw.decoder.24bit=true \
