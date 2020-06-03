@@ -52,7 +52,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.google.android.Pixel2Mod"> 
+    <privapp-permissions package="com.google.android.Pixel2Mod">
         <permission name="android.permission.BIND_WALLPAPER"/>
     </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.GoogleCamera">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+    </privapp-permissions>
 </permissions>
