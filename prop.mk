@@ -109,29 +109,6 @@ vendor.display.disable_skip_validate=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 ro.sf.lcd_density=420
 
-# SurfaceFlinger
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.surface_flinger.protected_contents=true \
-ro.surface_flinger.set_display_power_timer_ms=10000 \
-ro.surface_flinger.set_touch_timer_ms=5000 \
-ro.surface_flinger.set_idle_timer_ms=9000 \
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
-
-# Graphics
-PRODUCT_PROPERTY_OVERRIDES += \
-debug.sf.early_phase_offset_ns=1500000 \
-debug.sf.early_app_phase_offset_ns=1500000 \
-debug.sf.early_gl_phase_offset_ns=3000000 \
-debug.sf.early_gl_app_phase_offset_ns=15000000
-
-# SurfaceFlinger
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.surface_flinger.protected_contents=true
-ro.surface_flinger.use_smart_90_for_video=true
-ro.surface_flinger.set_display_power_timer_ms=10000
-ro.surface_flinger.set_touch_timer_ms=5000
-ro.surface_flinger.set_idle_timer_ms=9000
-
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.sf.early_phase_offset_ns=1500000
@@ -243,6 +220,15 @@ ro.telephony.use_old_mnc_mcc_format=true
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.rcs.supported=1
 
+# SurfaceFlinger
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.protected_contents=true \
+ro.surface_flinger.use_smart_90_for_video=true \
+ro.surface_flinger.set_display_power_timer_ms=10000 \
+ro.surface_flinger.set_touch_timer_ms=5000 \
+ro.surface_flinger.set_idle_timer_ms=9000 \
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true \
@@ -328,7 +314,7 @@ ro.memperf.enable=false \
 persist.mm.sta.enable=0 \
 persist.fuse_sdcard=true
 
-# Memory management
+# Memory management tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.fha_enable=true \
 ro.sys.fw.bg_apps_limit=32 \
